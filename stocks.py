@@ -29,19 +29,19 @@ def stock_purchases():
     if savings < 100:
         print('You do not have enough to invest right now.')
     elif stock == 'Amazon' :
-        shares = {savings} / {Amazon}  
+        shares = savings / Amazon
     elif stock == 'Apple' :
-        sshares = {savings} / {Apple}
+        shares = savings / Apple
     elif stock == 'Facebook' :
-        shares = {savings} / {Facebook} 
+        shares = savings / Facebook 
     elif stock == 'Google' :
-        shares = {savings} / {Google}
+        shares = savings / Google
     elif stock == 'Microsoft' :
-        shares = {savings} / {Microsoft} 
-    print(f'{name} has {savings} and can buy {shares} of {stock} at the current price of $ {stock}.')  
+        shares = savings / Microsoft
+    print(f'{name} has {savings} and can buy {shares} of {stock} at the current price of ${stock}.')  
 
 
 
-stock_purchases()
+# stock_purchases()
 
 
